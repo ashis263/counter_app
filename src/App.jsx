@@ -16,12 +16,13 @@ export default function App() {
 
   return (
     <div>
-      <h1>Counter App</h1>
       <div className="container">
         <h2>Count: {count}</h2>
-        <button onClick={handleIncrement}>+</button>
-        <button onClick={handleDecrement}>-</button>
-        <button onClick={handleReset}>0</button>
+        <div>
+          <button onClick={handleIncrement}>+</button>
+          <button onClick={handleDecrement}>-</button>
+          </br>
+          <button onClick={handleReset}>Reset</button></div>
       </div>
     </div>
   )
