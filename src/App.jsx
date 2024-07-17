@@ -19,8 +19,8 @@ export default function App() {
       <h1>Counter App</h1>
       <div className="container">
         <h2>Count: {count}</h2>
-        <button onClick={handleIncrement} disabled={count==5 ? true : false}>+</button>
-        <button onClick={handleDecrement} disabled={count==-5 ? true : false}>-</button>
+        <button onClick={handleIncrement}}>+</button>
+        <button onClick={handleDecrement}}>-</button>
         <button onClick={handleReset}>0</button>
       </div>
     </div>
