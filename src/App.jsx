@@ -21,7 +21,7 @@ export default function App() {
         <div>
           <button onClick={handleIncrement}>+</button>
           <button onClick={handleDecrement}>-</button>
-          </br>
+          <br/>
           <button onClick={handleReset}>Reset</button></div>
       </div>
     </div>
