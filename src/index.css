@@ -13,12 +13,13 @@
 }
 
 button{
-  font-size: 15px;
+  font-size: 40px;
+  font-weight: bold;
   width: 100px;
   height: 40px;
   margin: 15px;
   border-radius: 15px;
   background-color: white;
-  color: black;
+  color: #9EC8B9;
   border: none;
 }
