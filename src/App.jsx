@@ -20,7 +20,7 @@ export default function App() {
         <h2>Count: {count}</h2>
         <div>
           <button onClick={handleIncrement}>+</button>
-          <button onClick={handleDecrement}>-</button>
+          <button onClick={handleDecrement} hidden={count<0 ? true : false}>-</button>
           <br/>
           <button onClick={handleReset}>Reset</button></div>
       </div>
